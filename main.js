@@ -1,16 +1,18 @@
+// questions for the game.
+
 const questions = [
     {
-        title: "What was the character’s name that Denzel Washington played in Mo Better Blues?:",
+        title: "The character’s name Denzel Washington played in Mo Better Blues?:",
         choices: ["Moses", "Bleek", "Shadow", "Mookie"],
         answer: "Bleek"
     },
     {
-        title: "What is the name of Mos Def’s character in Bamboozled?",
+        title: "The name of Mos Def’s character in Bamboozled?",
         choices: ["Big Black Africa", "Lenny", "Buddy", "Dante"],
         answer: "Big Black Africa"
     },
     {
-        title: "The name of the pizzeria Mookie worked at in Do The Right Thing?",
+        title: "Name of the pizzeria Mookie worked at in Do The Right Thing?",
         choices: ["Lemmy's", "Jersey Steven's", "Pizza Hut", "Sal's Famous"],
         answer: "Sal's Famous"
     },
@@ -20,38 +22,39 @@ const questions = [
         answer: "American Utopia"
     },
     {
-        title: "Who starred in Clockers?",
+        title: "Who stars in Clockers?",
         choices: ["Denzel Washington", "Omar Epps", "Bill Murray", "Mekhi Phifer"],
         answer: "Mekhi Phifer"
     },
-//     {
-//         title: "Undefined does NOT mean that _______.",
-//         choices: ["the variable in the code doesn't exist", "the variable is not assigned to a value", "the variable is assigned no value", "the property doesn't exist"],
-//         answer: "the variable is assigned no value"
-//     },
-//     {
-//         title: "Arrays in JavaScript can be used to store ______.",
-//         choices: ["strings", "numbers", "objects", "All of the Above"],
-//         answer: "All of the Above"
-//     },
-//     {
-//         title: "Arrays in JavaScript can be used to store ______.",
-//         choices: ["strings", "numbers", "objects", "All of the Above"],
-//         answer: "All of the Above"
-//     },
-//     {
-//         title: "Arrays in JavaScript can be used to store ______.",
-//         choices: ["strings", "numbers", "objects", "All of the Above"],
-//         answer: "All of the Above"
-//     },
-//     {
-//         title: "Arrays in JavaScript can be used to store ______.",
-//         choices: ["strings", "numbers", "objects", "All of the Above"],
-//         answer: "All of the Above"
-//     },
-//     {
-//         title: "Arrays in JavaScript can be used to store ______.",
-//         choices: ["strings", "numbers", "objects", "All of the Above"],
-//         answer: "All of the Above"
-//     }
-// ];
+    {
+        title: "Who plays West Indian Archie in Malcolm X?",
+        choices: ["Delroy Lindo", "Ray Allen", "Bill Duke", "2 Pac"],
+        answer: "Delroy Lindo"
+    },
+    {
+        title: "Actress that playes “Natural” in 25th hour?",
+        choices: ["Julia Roberts", "Rosario Dawson", "Chloe Sevigny", "Rosie Perez"],
+        answer: "Rosario Dawson"
+    },
+    {
+        title: "Actor that plays Dean Big Brother Almighty in School Daze?",
+        choices: ["Kanye West", "Denzel Washington", "Giancarlo Esposito", "None of these"],
+        answer: "Giancarlo Esposito"
+    },
+    {
+        title: "What movie did Spike Lee win an oscar for Best Adapted Screenplay?",
+        choices: ["Chicago", "For The Love Of The Game", "BlacKkKlansman", "Hoop Dreams"],
+        answer: "BlacKkKlansman"
+    },
+    {
+        title: "What was Spike Lee's first movie?",
+        choices: ["She's Gotta Have It", "Girl 6", "Summer Of Sam", "He Got Game"],
+        answer: "She's Gotta Have It"
+    },
+    {
+        title: "Spike Lee is from ____ ?",
+        choices: ["Los Angeles", "Brooklyn", "Chicago", "Lansing"],
+        answer: "Brooklyn"
+    }
+];
+
