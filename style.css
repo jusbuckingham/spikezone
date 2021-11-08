@@ -66,13 +66,13 @@ body{
     background-color:#c7dddf;
 }
   
-.evaluate,.next{
+.submit,.next{
     width:30vw;
     height: 8vh;
     padding: 5px;
     font-size: larger;
 }
-.evaluate{
+.submit{
     
     background-color: #50DBB4;
 }

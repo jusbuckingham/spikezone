@@ -184,10 +184,10 @@ function iterate(id) {
 		selected = op4.value;
 	})
 
-	// Grabbing the evaluate button
-	const evaluate = document.getElementsByClassName("evaluate");
+	// Grabbing the submit button
+	const evaluate = document.getElementsByClassName("submit");
 
-	// Evaluate method
+	// Submit method
 	evaluate[0].addEventListener("click", () => {
 		if (selected == "true") {
 			result[0].innerHTML = "True";
