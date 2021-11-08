@@ -115,13 +115,13 @@ const Questions = [{
 }];
 
 // Set start
-var start = true;
+let start = true;
 
 // Iterate
 function iterate(id) {
 
 	// Getting the result display section
-	var result = document.getElementsByClassName("result");
+	let result = document.getElementsByClassName("result");
 	result[0].innerText = "";
 
 	// Getting the question
@@ -153,7 +153,7 @@ function iterate(id) {
 	var selected = "";
 
 	// Show selection for op1
-	op1.addEventListener("click", () => {
+	op1.addEventListener("click", function (e) {
 		op1.style.backgroundColor = "lightgoldenrodyellow";
 		op2.style.backgroundColor = "lightskyblue";
 		op3.style.backgroundColor = "lightskyblue";
@@ -162,7 +162,7 @@ function iterate(id) {
 	})
 
 	// Show selection for op2
-	op2.addEventListener("click", () => {
+	op2.addEventListener("click", function (e) {
 		op1.style.backgroundColor = "lightskyblue";
 		op2.style.backgroundColor = "lightgoldenrodyellow";
 		op3.style.backgroundColor = "lightskyblue";
@@ -171,7 +171,7 @@ function iterate(id) {
 	})
 
 	// Show selection for op3
-	op3.addEventListener("click", () => {
+	op3.addEventListener("click", function (e) {
 		op1.style.backgroundColor = "lightskyblue";
 		op2.style.backgroundColor = "lightskyblue";
 		op3.style.backgroundColor = "lightgoldenrodyellow";
@@ -180,7 +180,7 @@ function iterate(id) {
 	})
 
 	// Show selection for op4
-	op4.addEventListener("click", () => {
+	op4.addEventListener("click", function (e) {
 		op1.style.backgroundColor = "lightskyblue";
 		op2.style.backgroundColor = "lightskyblue";
 		op3.style.backgroundColor = "lightskyblue";
@@ -192,7 +192,7 @@ function iterate(id) {
 	const evaluate = document.getElementsByClassName("submit");
 
 	// Submit method
-	evaluate[0].addEventListener("click", () => {
+	evaluate[0].addEventListener("click", function (e) {
 		if (selected == "true") {
 			result[0].innerHTML = "True";
 			result[0].style.color = "green";
@@ -209,7 +209,7 @@ if (start) {
 
 // Next button and method
 const next = document.getElementsByClassName('next')[0];
-var id = 0;
+let id = 0;
 
 next.addEventListener("click", () => {
 	start = false;
