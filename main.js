@@ -1,11 +1,13 @@
-// create the start page
+// create the start page with timer
+
 
 // load the start page with timer set for 1 min & 21 seconds & counter
 
 // objects of the questions and answers.
+
 const Questions = [{
     id: 0,
-    q: "What's the character's name Denzel Washington plays in Mo Better Blues?:",
+    q: "What's the character's name Denzel Washington plays in Mo Better Blues?",
     a: [{ text: "Moses", isCorrect: false },
         { text: "Shadow", isCorrect: false },
         { text: "Bleek", isCorrect: true },
@@ -15,7 +17,7 @@ const Questions = [{
 },
 {
     id: 1,
-    q: "The name of Mos Def’s character in Bamboozled?",
+    q: "What is the name of Yasiin Bey’s character in Bamboozled?",
     a: [{ text: "Masta Ace", isCorrect: false },
         { text: "Leon", isCorrect: false },
         { text: "Craig", isCorrect: false },
@@ -25,7 +27,7 @@ const Questions = [{
 },
 {
     id: 2,
-    q: "Name of the pizzeria Mookie worked at in Do The Right Thing?",
+    q: "What is the name of the pizzeria Mookie worked at in Do The Right Thing?",
     a: [{ text: "Tino's Pizza", isCorrect: false },
         { text: "Sal's Famous", isCorrect: true },
         { text: "Pizza Hut", isCorrect: false },
@@ -38,14 +40,14 @@ const Questions = [{
     q: "David Byrne and Spike Lee collaborated on what live filmed version of a broadway hit?",
     a: [{ text: "Annie", isCorrect: false, isSelected: false },
         { text: "West Side Story", isCorrect: false },
-        { text: "America Utopia", isCorrect: true },
+        { text: "American Utopia", isCorrect: true },
         { text: "Bigger Than Life!", isCorrect: false }
     ]
 
 },
 {
     id: 4,
-    q: "Who stars in Clockers?",
+    q: "Who is the actor that plays the main character in Clockers?",
     a: [{ text: "Mekhi Phifer", isCorrect: true },
         { text: "Omar Epps", isCorrect: false },
         { text: "2 Pac", isCorrect: false },
