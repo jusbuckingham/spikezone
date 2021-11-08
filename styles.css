@@ -91,7 +91,7 @@ html, body {
   body {
     display: table-cell;
     vertical-align: middle;
-    background-color: rgb(241, 17, 17);
+    background-color: lightgray;
     text-align: center;
   }
   form {

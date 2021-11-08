@@ -111,7 +111,7 @@ const Questions = [{
 }];
 
 // Set start
-var start = true;
+const start = true;
 
 // Iterate
 function iterate(id) {
@@ -146,7 +146,7 @@ op2.value = Questions[id].a[1].isCorrect;
 op3.value = Questions[id].a[2].isCorrect;
 op4.value = Questions[id].a[3].isCorrect;
 
-const selected = "";
+var selected = "";
 
 // Show selection for op1
 op1.addEventListener("click", () => {
