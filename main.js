@@ -1,36 +1,114 @@
 // Questions will be asked
 const Questions = [{
     id: 0,
-    q: "What is capital of India?",
-    a: [{ text: "gandhinagar", isCorrect: false },
-        { text: "Surat", isCorrect: false },
-        { text: "Delhi", isCorrect: true },
-        { text: "mumbai", isCorrect: false }
+    q: "The character’s name Denzel Washington played in Mo Better Blues?:",
+    a: [{ text: "Moses", isCorrect: false },
+        { text: "Shadow", isCorrect: false },
+        { text: "Bleek", isCorrect: true },
+        { text: "Mookie", isCorrect: false }
     ]
 
 },
 {
     id: 1,
-    q: "What is the capital of Thailand?",
-    a: [{ text: "Lampang", isCorrect: false, isSelected: false },
-        { text: "phuket", isCorrect: false },
-        { text: "Ayutthaya", isCorrect: false },
-        { text: "Bangkok", isCorrect: true }
+    q: "The name of Mos Def’s character in Bamboozled?",
+    a: [{ text: "Masta Ace", isCorrect: false, isSelected: false },
+        { text: "Leon", isCorrect: false },
+        { text: "Craig", isCorrect: false },
+        { text: "Big Black Africa", isCorrect: true }
     ]
 
 },
 {
     id: 2,
-    q: "What is the capital of Gujarat",
-    a: [{ text: "surat", isCorrect: false },
-        { text: "vadodara", isCorrect: false },
-        { text: "gandhinagar", isCorrect: true },
-        { text: "rajkot", isCorrect: false }
+    q: "Name of the pizzeria Mookie worked at in Do The Right Thing?",
+    a: [{ text: "Tino's Pizza", isCorrect: false, isSelected: false },
+        { text: "Sal's Famous", isCorrect: true },
+        { text: "Pizza Hut", isCorrect: false },
+        { text: "Buger King", isCorrect: false }
     ]
 
-}
+},
+{
+    id: 3,
+    q: "David Byrne and Spike Lee collaborated on what live filmed version of a broadway hit?",
+    a: [{ text: "Annie", isCorrect: false, isSelected: false },
+        { text: "West Side Story", isCorrect: false },
+        { text: "America Utopia", isCorrect: true },
+        { text: "Bigger Than Life!", isCorrect: false }
+    ]
 
-]
+},
+{
+    id: 4,
+    q: "Who stars in Clockers?",
+    a: [{ text: "Mekhi Phifer", isCorrect: true, isSelected: false },
+        { text: "Omar Epps", isCorrect: false },
+        { text: "2 Pac", isCorrect: false },
+        { text: "Cormega", isCorrect: false }
+    ]
+
+},
+{
+    id: 5,
+    q: "Who plays West Indian Archie in Malcolm X?",
+    a: [{ text: "Charles S. Dutton", isCorrect: false, isSelected: false },
+        { text: "Spike Lee", isCorrect: false },
+        { text: "Bill Duke", isCorrect: false },
+        { text: "Delroy Lindo", isCorrect: true }
+    ]
+
+},
+{
+    id: 6,
+    q: "Actress that playes “Natural” in 25th hour?",
+    a: [{ text: "Ruby Dee", isCorrect: false, isSelected: false },
+        { text: "Chloe Sevigny", isCorrect: false },
+        { text: "Rosario Dawson", isCorrect: true },
+        { text: "Angelina Jolie", isCorrect: false }
+    ]
+
+},
+{
+    id: 7,
+    q: "Actor that plays Dean Big Brother Almighty in School Daze?",
+    a: [{ text: "Chris Rock", isCorrect: false, isSelected: false },
+        { text: "Giancarlo Esposito", isCorrect: true },
+        { text: "Samuel L. Jackson", isCorrect: false },
+        { text: "Eddie Murphy", isCorrect: false }
+    ]
+
+},
+{
+    id: 8,
+    q: "What movie did Spike Lee win an oscar for Best Adapted Screenplay?",
+    a: [{ text: "Girl 6", isCorrect: false, isSelected: false },
+        { text: "Driving Miss Daisy", isCorrect: false },
+        { text: "Get On The Bus", isCorrect: false },
+        { text: "BlacKkKlansman", isCorrect: true }
+    ]
+
+},
+{
+    id: 9,
+    q: "What was Spike Lee's first movie?",
+    a: [{ text: "She Hate Me", isCorrect: false, isSelected: false },
+        { text: "Kids", isCorrect: false },
+        { text: "She's Gotta Have It", isCorrect: true },
+        { text: "Drop Squad", isCorrect: false }
+    ]
+
+},
+{
+    id: 10,
+    q: "Spike Lee is from ____ ?",
+    a: [{ text: "Jersey City", isCorrect: false, isSelected: false },
+        { text: "Chicago", isCorrect: false },
+        { text: "East Lansing", isCorrect: false },
+        { text: "Brooklyn", isCorrect: true }
+    ]
+
+}];
 
 // Set start
 var start = true;
