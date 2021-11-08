@@ -1,4 +1,8 @@
-// Questions will be asked
+// create the start page
+
+// load the start page with timer set for 1 min & 21 seconds & counter
+
+// objects of the questions and answers.
 const Questions = [{
     id: 0,
     q: "What's the character's name Denzel Washington plays in Mo Better Blues?:",
@@ -216,3 +220,5 @@ next.addEventListener("click", () => {
 	}
 
 })
+
+// when timer expires or all questions are answered show a final score page & play again button that starts the whole process over again.
