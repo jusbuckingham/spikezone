@@ -150,7 +150,7 @@ function iterate(id) {
 	op3.value = Questions[id].a[2].isCorrect;
 	op4.value = Questions[id].a[3].isCorrect;
 
-	var selected = "";
+	let selected = "";
 
 	// Show selection for op1
 	op1.addEventListener("click", function (e) {
@@ -213,7 +213,7 @@ let id = 0;
 
 next.addEventListener("click", function (e) {
 	start = false;
-	if (id < 11) {
+	if (id < 12) {
 		id++;
 		iterate(id);
 		console.log(id);
