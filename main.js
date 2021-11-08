@@ -196,7 +196,7 @@ function iterate(id) {
 	// the submit method
 	evaluate[0].addEventListener("click", function (e) {
 		if (selected == "true") {
-			result[0].innerHTML = "Yup!";
+			result[0].innerHTML = "Yup!  Click next question!";
 			result[0].style.color = "green";
 		} else {
 			result[0].innerHTML = "Nope, try again!";
@@ -220,7 +220,12 @@ next.addEventListener("click", function (e) {
 		iterate(id);
 		console.log(id);
 	}
-
 })
+
+
+// makes a black box in the results box.
+
+let resultElement = document.querySelector('.result');
+resultElement.style.backgroundColor = 'black';
 
 // when timer expires or all questions are answered show a final score page & play again button that starts the whole process over again.
