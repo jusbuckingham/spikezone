@@ -16,7 +16,7 @@ const Questions = [{
 {
     id: 1,
     q: "The name of Mos Def’s character in Bamboozled?",
-    a: [{ text: "Masta Ace", isCorrect: false, isSelected: false },
+    a: [{ text: "Masta Ace", isCorrect: false },
         { text: "Leon", isCorrect: false },
         { text: "Craig", isCorrect: false },
         { text: "Big Black Africa", isCorrect: true }
@@ -26,7 +26,7 @@ const Questions = [{
 {
     id: 2,
     q: "Name of the pizzeria Mookie worked at in Do The Right Thing?",
-    a: [{ text: "Tino's Pizza", isCorrect: false, isSelected: false },
+    a: [{ text: "Tino's Pizza", isCorrect: false },
         { text: "Sal's Famous", isCorrect: true },
         { text: "Pizza Hut", isCorrect: false },
         { text: "Buger King", isCorrect: false }
@@ -46,7 +46,7 @@ const Questions = [{
 {
     id: 4,
     q: "Who stars in Clockers?",
-    a: [{ text: "Mekhi Phifer", isCorrect: true, isSelected: false },
+    a: [{ text: "Mekhi Phifer", isCorrect: true },
         { text: "Omar Epps", isCorrect: false },
         { text: "2 Pac", isCorrect: false },
         { text: "Cormega", isCorrect: false }
@@ -56,7 +56,7 @@ const Questions = [{
 {
     id: 5,
     q: "Who plays West Indian Archie in Malcolm X?",
-    a: [{ text: "Charles S. Dutton", isCorrect: false, isSelected: false },
+    a: [{ text: "Charles S. Dutton", isCorrect: false },
         { text: "Spike Lee", isCorrect: false },
         { text: "Bill Duke", isCorrect: false },
         { text: "Delroy Lindo", isCorrect: true }
@@ -66,7 +66,7 @@ const Questions = [{
 {
     id: 6,
     q: "Actress that playes “Natural” in 25th hour?",
-    a: [{ text: "Ruby Dee", isCorrect: false, isSelected: false },
+    a: [{ text: "Ruby Dee", isCorrect: false },
         { text: "Chloe Sevigny", isCorrect: false },
         { text: "Rosario Dawson", isCorrect: true },
         { text: "Angelina Jolie", isCorrect: false }
@@ -76,7 +76,7 @@ const Questions = [{
 {
     id: 7,
     q: "Actor that plays Dean Big Brother Almighty in School Daze?",
-    a: [{ text: "Chris Rock", isCorrect: false, isSelected: false },
+    a: [{ text: "Chris Rock", isCorrect: false },
         { text: "Giancarlo Esposito", isCorrect: true },
         { text: "Samuel L. Jackson", isCorrect: false },
         { text: "Eddie Murphy", isCorrect: false }
@@ -121,7 +121,7 @@ let start = true;
 function iterate(id) {
 
 	// Getting the result display section
-	let result = document.getElementsByClassName("result");
+	const result = document.getElementsByClassName("result");
 	result[0].innerText = "";
 
 	// Getting the question
@@ -188,16 +188,16 @@ function iterate(id) {
 		selected = op4.value;
 	})
 
-	// Grabbing the submit button
+	// grabbing the submit button
 	const evaluate = document.getElementsByClassName("submit");
 
-	// Submit method
+	// the submit method
 	evaluate[0].addEventListener("click", function (e) {
 		if (selected == "true") {
-			result[0].innerHTML = "True";
+			result[0].innerHTML = "Yup!";
 			result[0].style.color = "green";
 		} else {
-			result[0].innerHTML = "False";
+			result[0].innerHTML = "Nope, try again!";
 			result[0].style.color = "red";
 		}
 	})
@@ -211,7 +211,7 @@ if (start) {
 const next = document.getElementsByClassName('next')[0];
 let id = 0;
 
-next.addEventListener("click", () => {
+next.addEventListener("click", function (e) {
 	start = false;
 	if (id < 11) {
 		id++;

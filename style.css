@@ -14,7 +14,7 @@ body{
     height: 100vh;    
 }
 .panel{
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +25,7 @@ body{
     padding: 5px;
     width: 80vw;
     height: 10vh;
-    background-color: #c7dddf;
+    background-color: lightgray;
     font-size: x-large;
     text-align: center;
       
@@ -37,6 +37,7 @@ body{
     height: 10vh;
     text-align: center;
     font-size: 50px;
+    font-weight: 900;
       
 }
 .option-container{
@@ -46,7 +47,7 @@ body{
     padding: 5px;
     width: 80vw;
     height: 20vh;
-    background-color: #9eb1b3;   
+    background-color: lightgray;   
         
 }
 .option{    
@@ -67,7 +68,7 @@ body{
     padding: 5px;
     display: flex;
     justify-content: space-around;
-    background-color:#c7dddf;
+    background-color: lightgray;
 }
   
 .submit,.next{
