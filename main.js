@@ -1,7 +1,7 @@
 // Questions will be asked
 const Questions = [{
     id: 0,
-    q: "The character’s name Denzel Washington played in Mo Better Blues?:",
+    q: "What's the character's name Denzel Washington plays in Mo Better Blues?:",
     a: [{ text: "Moses", isCorrect: false },
         { text: "Shadow", isCorrect: false },
         { text: "Bleek", isCorrect: true },
@@ -146,7 +146,7 @@ op2.value = Questions[id].a[1].isCorrect;
 op3.value = Questions[id].a[2].isCorrect;
 op4.value = Questions[id].a[3].isCorrect;
 
-var selected = "";
+const selected = "";
 
 // Show selection for op1
 op1.addEventListener("click", () => {
@@ -215,4 +215,4 @@ if (id < 2) {
     console.log(id);
 }
 
-})
+});
