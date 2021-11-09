@@ -6,8 +6,8 @@ Find game here: https://jusbuckingham.github.io/spikezone/
 The app must:
 
 1. :white_check_mark: Display a game in the browser
-2. Switch turns between two players, or switch turns between a player and the computer (AI)*
-3. Design logic for winning & visually display which player won
+2. 🚧 Switch turns between two players, or switch turns between a player and the computer (AI)*
+3. 🚧 Design logic for winning & visually display which player won
 4. :white_check_mark: Include separate HTML / CSS / JavaScript files 
 5. :white_check_mark: Stick with KISS (Keep It Simple Stupid) and DRY (Don't Repeat Yourself) principles 
 6. :white_check_mark: Use Javascriptd for DOM manipulation
