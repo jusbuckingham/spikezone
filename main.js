@@ -38,7 +38,7 @@ const Questions = [{
 {
     id: 3,
     q: "David Byrne and Spike Lee collaborated on what live filmed version of a broadway hit?",
-    a: [{ text: "Annie", isCorrect: false, isSelected: false },
+    a: [{ text: "Annie", isCorrect: false },
     { text: "West Side Story", isCorrect: false },
     { text: "American Utopia", isCorrect: true },
     { text: "Bigger Than Life!", isCorrect: false }
@@ -58,7 +58,7 @@ const Questions = [{
 {
     id: 5,
     q: "Who plays West Indian Archie in Malcolm X?",
-    a: [{ text: "Charles S. Dutton", isCorrect: false },
+    a: [{ text: "Charles S. Dutton" },
     { text: "Spike Lee", isCorrect: false },
     { text: "Bill Duke", isCorrect: false },
     { text: "Delroy Lindo", isCorrect: true }
@@ -88,7 +88,7 @@ const Questions = [{
 {
     id: 8,
     q: "What movie did Spike Lee win an oscar for Best Adapted Screenplay?",
-    a: [{ text: "Girl 6", isCorrect: false, isSelected: false },
+    a: [{ text: "Girl 6", isCorrect: false },
     { text: "Driving Miss Daisy", isCorrect: false },
     { text: "Get On The Bus", isCorrect: false },
     { text: "BlacKkKlansman", isCorrect: true }
@@ -98,7 +98,7 @@ const Questions = [{
 {
     id: 9,
     q: "What was Spike Lee's first movie?",
-    a: [{ text: "She Hate Me", isCorrect: false, isSelected: false },
+    a: [{ text: "She Hate Me", isCorrect: false },
     { text: "Kids", isCorrect: false },
     { text: "She's Gotta Have It", isCorrect: true },
     { text: "Drop Squad", isCorrect: false }
@@ -108,7 +108,7 @@ const Questions = [{
 {
     id: 10,
     q: "Spike Lee is from ____ ?",
-    a: [{ text: "Jersey City", isCorrect: false, isSelected: false },
+    a: [{ text: "Jersey City", isCorrect: false },
     { text: "Chicago", isCorrect: false },
     { text: "East Lansing", isCorrect: false },
     { text: "Brooklyn", isCorrect: true }
