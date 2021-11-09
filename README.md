@@ -20,10 +20,10 @@ The app must:
 # How It Works
    
 # Future Features
-Sign up/log in feature.
-Animated questions.
-Mobile App.
-Social Sharing Option.
+- Sign up/log in feature.
+- Animated questions.
+- Mobile App.
+- Social Sharing Option.
 
 # Initial Wireframe
 ![Getting Started](./wireframe-spikezone.png)
