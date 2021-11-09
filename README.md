@@ -24,6 +24,4 @@ Mobile App.
 Social Sharing Option.
 
 # Initial Wireframe
-[add the wireframe photo in the repo to this section]
-
 ![Getting Started](./wireframe-spikezone.png)
