@@ -1,6 +1,9 @@
 
 * {
     font-family: 'Work Sans', sans-serif;
+    /* text-align: center;
+    padding: 20px 0;
+    font-size: 30px; */
 }
 
 body{
@@ -99,4 +102,11 @@ html, body {
   }
   h1 {
       font-weight: bold;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: invisible;
+    padding: 10px;
   }

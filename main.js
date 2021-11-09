@@ -1,8 +1,3 @@
-// create the start page with timer starting at 60 seconds.
-
-
-// load the start page with timer set for 1 min & 21 seconds & counter
-
 // objects of the questions and answers.
 
 const questions = [{
@@ -230,5 +225,10 @@ resultElement.style.backgroundColor = 'black';
 
 // let questionElement = document.querySelector('.question-container');
 // questionElement.style.backgroundColor = 'green';
+
+
+// create the start page with timer starting at 60 seconds.
+
+// load the start page with timer set for 1 min & 21 seconds & counter
 
 // when timer expires or all questions are answered show a final score page & play again button that starts the whole process over again.
