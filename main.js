@@ -1,4 +1,4 @@
-// objects of the questions and answers.
+// objects wiith id, questions & answers.
 
 const questions = [{
     id: 0,
@@ -223,8 +223,8 @@ next.addEventListener("click", function (e) {
 let resultElement = document.querySelector('.result');
 resultElement.style.backgroundColor = 'black';
 
-// let questionElement = document.querySelector('.question-container');
-// questionElement.style.backgroundColor = 'green';
+let questionElement = document.querySelector('.question-container');
+questionElement.style.backgroundColor = 'green';
 
 
 // create the start page with timer starting at 60 seconds.
