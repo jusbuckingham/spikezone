@@ -24,4 +24,3 @@ The app must:
 # PROCESS WORK
 
 # Initial Wireframe: 
-![wireframe-spikezone](https://user-images.githubusercontent.com/24197255/140983628-ebbe9951-c419-4069-91b3-621bf4c6886b.png)
