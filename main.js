@@ -1,4 +1,4 @@
-// objects wiith id, questions & answers.
+// objects with id, questions & answers.
 
 const questions = [{
     id: 0,
