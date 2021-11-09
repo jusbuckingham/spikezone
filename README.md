@@ -9,7 +9,7 @@ The app must:
 3. Design logic for winning & visually display which player won
 4. :white_check_mark: Include separate HTML / CSS / JavaScript files 
 5. :white_check_mark: Stick with KISS (Keep It Simple Stupid) and DRY (Don't Repeat Yourself) principles 
-6. Use Javascriptd for DOM manipulation :white_check_mark:
+6.  :white_check_mark: Use Javascriptd for DOM manipulation
 7. Deploy your game online, where the rest of the world can access it**
 8. :white_check_mark: Use semantic markup for HTML and CSS (adhere to best practices) 
 
