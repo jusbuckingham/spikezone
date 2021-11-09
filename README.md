@@ -15,7 +15,7 @@ The app must:
 8. ✅ : Use semantic markup for HTML and CSS (adhere to best practices).
 
 # How To Play
-Find game here: https://jusbuckingham.github.io/spikezone/ 
+<!-- Find game here: https://jusbuckingham.github.io/spikezone/  -->
 
 # How It Works
    
