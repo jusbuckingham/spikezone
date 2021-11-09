@@ -1,5 +1,4 @@
 // objects with id, questions & answers.
-
 const questions = [{
     id: 0,
     q: "What's the character's name Denzel Washington plays in Mo Better Blues?",
@@ -217,18 +216,16 @@ next.addEventListener("click", function (e) {
     }
 })
 
-
 // makes a black box in the results box.
-
 let resultElement = document.querySelector('.result');
 resultElement.style.backgroundColor = 'black';
 
+// makes questions box green
 let questionElement = document.querySelector('.question-container');
 questionElement.style.backgroundColor = 'green';
 
 
-// create the start page with timer starting at 60 seconds.
+// create points counter in the top right corner
 
-// load the start page with timer set for 1 min & 21 seconds & counter
 
-// when timer expires or all questions are answered show a final score page & play again button that starts the whole process over again.
+// create results final page function
