@@ -1,10 +1,10 @@
-# spikezone
+# SpikeZone
 
 SEI 1025 Project 1: SpikeZone
 
 A trivia games based on film director Spike Lee.
 
-To play SpikeZone online visit (put url)
+To play SpikeZone online visit (input url)
 
 # HOW TO PLAY
 
@@ -16,4 +16,4 @@ To play SpikeZone online visit (put url)
 
 # PROCESS WORK
 
-Initial Wireframes: (add pictures of wireframe)
+# Initial Wireframes: (add pictures of wireframe)
