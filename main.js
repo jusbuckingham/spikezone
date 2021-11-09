@@ -1,11 +1,11 @@
-// create the start page with timer
+// create the start page with timer starting at 60 seconds.
 
 
 // load the start page with timer set for 1 min & 21 seconds & counter
 
 // objects of the questions and answers.
 
-const Questions = [{
+const questions = [{
     id: 0,
     q: "What's the character's name Denzel Washington plays in Mo Better Blues?",
     a: [{ text: "Moses", isCorrect: false },
@@ -131,7 +131,7 @@ function iterate(id) {
 
 
     // Setting the question text
-    question.innerText = Questions[id].q;
+    question.innerText = questions[id].q;
 
     // Getting the options
     const op1 = document.getElementById('op1');
@@ -141,16 +141,16 @@ function iterate(id) {
 
 
     // Providing option text
-    op1.innerText = Questions[id].a[0].text;
-    op2.innerText = Questions[id].a[1].text;
-    op3.innerText = Questions[id].a[2].text;
-    op4.innerText = Questions[id].a[3].text;
+    op1.innerText = questions[id].a[0].text;
+    op2.innerText = questions[id].a[1].text;
+    op3.innerText = questions[id].a[2].text;
+    op4.innerText = questions[id].a[3].text;
 
     // Providing the true or false value to the options
-    op1.value = Questions[id].a[0].isCorrect;
-    op2.value = Questions[id].a[1].isCorrect;
-    op3.value = Questions[id].a[2].isCorrect;
-    op4.value = Questions[id].a[3].isCorrect;
+    op1.value = questions[id].a[0].isCorrect;
+    op2.value = questions[id].a[1].isCorrect;
+    op3.value = questions[id].a[2].isCorrect;
+    op4.value = questions[id].a[3].isCorrect;
 
     let selected = "";
 
@@ -225,8 +225,8 @@ next.addEventListener("click", function (e) {
 
 // makes a black box in the results box.
 
-// let resultElement = document.querySelector('.result');
-// resultElement.style.backgroundColor = 'black';
+let resultElement = document.querySelector('.result');
+resultElement.style.backgroundColor = 'black';
 
 // let questionElement = document.querySelector('.question-container');
 // questionElement.style.backgroundColor = 'green';
