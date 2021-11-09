@@ -14,13 +14,13 @@ The app must:
 7. ✅ : Deploy your game online, where the rest of the world can access it.
 8. ✅ : Use semantic markup for HTML and CSS (adhere to best practices).
 
-# How To Play
+<!-- # How To Play -->
 <!-- Find game here: https://jusbuckingham.github.io/spikezone/  -->
 
-# How It Works
+<!-- # How It Works -->
    
 # Future Features
-- Sign up/log in feature.
+- Sign up & log in feature.
 - Animated questions.
 - Mobile App.
 - Social Sharing Option.

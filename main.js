@@ -224,8 +224,7 @@ resultElement.style.backgroundColor = 'black';
 let questionElement = document.querySelector('.question-container');
 questionElement.style.backgroundColor = 'green';
 
-
-// create points counter in the top right corner
+// create points counter in the top right corner (in progress)
 let score = 0;
 function scoreCount () {
     if (selected == 'true'){
