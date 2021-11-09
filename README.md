@@ -24,4 +24,4 @@ The app must:
 # PROCESS WORK
 
 # Initial Wireframe: 
-{"type":"excalidraw/clipboard","elements":[{"id":"NVGv8P6wd8R4uP4ylTzco","type":"text","x":254.31634521484375,"y":349.3859558105469,"width":46,"height":20,"angle":0,"strokeColor":"#000000","backgroundColor":"transparent","fillStyle":"hachure","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"strokeSharpness":"sharp","seed":1504030162,"version":17,"versionNonce":731724754,"isDeleted":false,"boundElementIds":null,"text":"image!","fontSize":16,"fontFamily":1,"textAlign":"center","verticalAlign":"middle","baseline":14}],"files":{}}
+![wireframe-spikezone](https://user-images.githubusercontent.com/24197255/140983628-ebbe9951-c419-4069-91b3-621bf4c6886b.png)
