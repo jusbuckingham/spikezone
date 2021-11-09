@@ -23,4 +23,5 @@ The app must:
 
 # PROCESS WORK
 
-# Initial Wireframes: (add pictures of wireframe)
+# Initial Wireframe: 
+{"type":"excalidraw/clipboard","elements":[{"id":"NVGv8P6wd8R4uP4ylTzco","type":"text","x":254.31634521484375,"y":349.3859558105469,"width":46,"height":20,"angle":0,"strokeColor":"#000000","backgroundColor":"transparent","fillStyle":"hachure","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"strokeSharpness":"sharp","seed":1504030162,"version":17,"versionNonce":731724754,"isDeleted":false,"boundElementIds":null,"text":"image!","fontSize":16,"fontFamily":1,"textAlign":"center","verticalAlign":"middle","baseline":14}],"files":{}}
