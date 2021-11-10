@@ -123,7 +123,6 @@ function iterate(id) {
     // getting the question
     const question = document.getElementById("question");
 
-
     // setting the question text
     question.innerText = questions[id].q;
 
@@ -226,6 +225,7 @@ questionElement.style.backgroundColor = 'green';
 
 // create points counter in the top right corner (in progress)
 let score = 0;
+let scoreArray = [];
 function scoreCount () {
     if (selected == 'true'){
         score++;
