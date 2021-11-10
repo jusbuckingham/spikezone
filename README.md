@@ -24,6 +24,7 @@ The app must:
 - Animated questions.
 - Mobile App.
 - Social Sharing Option.
+- timer and score card.
 
 # Initial Wireframe
 ![Getting Started](./wireframe-spikezone.png)
