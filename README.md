@@ -17,7 +17,8 @@ The app must:
 # How To Play
 Find game here: https://jusbuckingham.github.io/spikezone/ 
 
-<!-- # How It Works -->
+# How It Works
+Answer each question one by one until you get to the end.  Learn a little along the way! 
    
 # Future Features
 - Sign up & log in feature.
@@ -25,6 +26,7 @@ Find game here: https://jusbuckingham.github.io/spikezone/
 - Mobile App.
 - Social Sharing Option.
 - Timer and score card.
+- Bring in fresh images at the top via imdb api.
 
 # Initial Wireframe
 ![Getting Started](./wireframe-spikezone.png)
