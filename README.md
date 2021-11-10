@@ -14,8 +14,8 @@ The app must:
 7. ✅ : Deploy your game online, where the rest of the world can access it.
 8. ✅ : Use semantic markup for HTML and CSS (adhere to best practices).
 
-<!-- # How To Play -->
-<!-- Find game here: https://jusbuckingham.github.io/spikezone/  -->
+# How To Play
+Find game here: https://jusbuckingham.github.io/spikezone/ 
 
 <!-- # How It Works -->
    
@@ -24,7 +24,7 @@ The app must:
 - Animated questions.
 - Mobile App.
 - Social Sharing Option.
-- timer and score card.
+- Timer and score card.
 
 # Initial Wireframe
 ![Getting Started](./wireframe-spikezone.png)

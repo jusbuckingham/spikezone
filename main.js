@@ -209,7 +209,7 @@ let id = 0;
 
 next.addEventListener("click", function (e) {
     start = false;
-    if (id < 12) {
+    if (id < 10) {
         id++;
         iterate(id);
         console.log(id);
@@ -232,7 +232,6 @@ function scoreCount () {
     }
 }
 
-
 // pull in imgs from imdb api & place them into .grid-container
 
 // var requestOptions = {
@@ -240,7 +239,7 @@ function scoreCount () {
 //     redirect: 'follow'
 //   };
    
-//   fetch('https://imdb-api.com/en/API/Title/k_1234567/tt1832382', requestOptions)
+//   fetch('s://imdb-api.com/en/API/Images/k_12345678/tt1375666', requestOptions)
 //     .then(response => response.text())
 //     .then(result => console.log(result))
 //     .catch(error => console.log('error', error));
