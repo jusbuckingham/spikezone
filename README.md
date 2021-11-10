@@ -14,7 +14,7 @@ The app must:
 7. ✅ : Deploy your game online, where the rest of the world can access it.
 8. ✅ : Use semantic markup for HTML and CSS (adhere to best practices).
 
-# How To Play
+# Where To Play
 Find game here: https://jusbuckingham.github.io/spikezone/ 
 
 # How It Works
@@ -27,6 +27,7 @@ Answer each question one by one until you get to the end.  Learn a little along 
 - Social Sharing Option.
 - Timer and score card.
 - Bring in fresh images at the top via imdb api.
+- 'Next Question' button that appears only once the correct answer is selected.
 
 # Initial Wireframe
 ![Getting Started](./wireframe-spikezone.png)
