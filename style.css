@@ -99,8 +99,6 @@ body {
     background-color: #BF3325;
 }
 
-
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -109,4 +107,8 @@ body {
     padding: auto;
     border-style: ridge;
 
+  }
+
+  .header-container {
+      border-style: dashed;
   }

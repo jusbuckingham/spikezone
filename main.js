@@ -1,4 +1,4 @@
-// objects with id, questions & answers.
+// array of objects with questions & answers.
 const questions = [{
     id: 0,
     q: "What's the character's name Denzel Washington plays in Mo Better Blues?",
@@ -202,11 +202,11 @@ if (start) {
     iterate("0");
 }
 
-// next button and method
-const next = document.getElementsByClassName('next')[0];
+// next question button and method
+let nextQuestion = document.getElementsByClassName('next')[0];
 let id = 0;
 
-next.addEventListener("click", function (e) {
+nextQuestion.addEventListener("click", function (e) {
     start = false;
     if (id < 10) {
         id++;
@@ -226,8 +226,8 @@ questionElement.style.backgroundColor = 'green';
 // create points counter in the top right corner (in progress)
 let score = 0;
 let scoreArray = [];
-function scoreCount () {
-    if (selected == 'true'){
+function scoreCount() {
+    if (selected == 'true') {
         score++;
     }
 }
@@ -238,7 +238,7 @@ function scoreCount () {
 //     method: 'GET',
 //     redirect: 'follow'
 //   };
-   
+
 //   fetch('s://imdb-api.com/en/API/Images/k_12345678/tt1375666', requestOptions)
 //     .then(response => response.text())
 //     .then(result => console.log(result))
