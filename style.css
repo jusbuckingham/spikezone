@@ -118,6 +118,6 @@ body {
     }
   }
   
-  /* @media (max-device-width:768px){
+  @media (max-device-width:768px){
     .ml-webforms-popup-overlay{background:0 0!important; display:none!important}
-  } */
+  }

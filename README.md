@@ -1,6 +1,11 @@
 # SpikeZone
 SEI 1025 Project 1: SpikeZone | A trivia game based on film director Spike Lee.
 
+# Technologies Used
+HTML, CSS & Javascript
+
+<!-- # Approach Taken
+This is a basic app that uses questions stored as an array of objects and answer hard coded as true or false  -->
 
 # Technical Requirements
 The app must:

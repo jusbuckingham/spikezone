@@ -1,17 +1,17 @@
 // array of objects with questions & answers.
-const questions = [{
+const gameData = [{
     id: 0,
-    q: "Are you ready for the SpikeZone!?",
-    a: [{ text: "Maybe", isCorrect: false },
-    { text: "No", isCorrect: false },
-    { text: "Yes", isCorrect: true },
-    { text: "Lemme see!", isCorrect: false }
+    q: "Ready for the SpikeZone!?",
+    a: [{ text: "", isCorrect: false },
+    { text: "", isCorrect: false },
+    { text: "", isCorrect: true },
+    { text: "", isCorrect: false }
     ]
 
 },
 {
     id: 1,
-    q: "What's the character's name Denzel Washington plays in Mo Better Blues?",
+    q: "The character's name Denzel Washington plays in Mo Better Blues?",
     a: [{ text: "Moses", isCorrect: false },
     { text: "Shadow", isCorrect: false },
     { text: "Bleek", isCorrect: true },
@@ -21,7 +21,7 @@ const questions = [{
 },
 {
     id: 2,
-    q: "What is the name of Yasiin Bey’s character in Bamboozled?",
+    q: "Yasiin Bey’s character in Bamboozled?",
     a: [{ text: "Masta Ace", isCorrect: false },
     { text: "Leon", isCorrect: false },
     { text: "Craig", isCorrect: false },
@@ -31,7 +31,7 @@ const questions = [{
 },
 {
     id: 3,
-    q: "What is the name of the pizzeria Mookie worked at in Do The Right Thing?",
+    q: "Pizzeria Mookie worked at in Do The Right Thing?",
     a: [{ text: "Tino's Pizza", isCorrect: false },
     { text: "Sal's Famous", isCorrect: true },
     { text: "Pizza Hut", isCorrect: false },
@@ -41,17 +41,17 @@ const questions = [{
 },
 {
     id: 4,
-    q: "David Byrne and Spike Lee collaborated on what live filmed version of a broadway hit?",
+    q: "David Byrne and Spike collaborated on what live filmed version of a broadway hit?",
     a: [{ text: "Annie", isCorrect: false },
     { text: "West Side Story", isCorrect: false },
     { text: "American Utopia", isCorrect: true },
-    { text: "Bigger Than Life!", isCorrect: false }
+    { text: "Bigger!", isCorrect: false }
     ]
 
 },
 {
     id: 5,
-    q: "Who is the actor that plays the main character in Clockers?",
+    q: "The actor that plays the main character in Clockers.",
     a: [{ text: "Mekhi Phifer", isCorrect: true },
     { text: "Omar Epps", isCorrect: false },
     { text: "2 Pac", isCorrect: false },
@@ -84,7 +84,7 @@ const questions = [{
     q: "Actor that plays Dean Big Brother Almighty in School Daze?",
     a: [{ text: "Chris Rock", isCorrect: false },
     { text: "Giancarlo Esposito", isCorrect: true },
-    { text: "Samuel L. Jackson", isCorrect: false },
+    { text: "Sam Jackson", isCorrect: false },
     { text: "Eddie Murphy", isCorrect: false }
     ]
 
@@ -144,7 +144,7 @@ function iterate(id) {
     const question = document.getElementById("question");
 
     // setting the question text
-    question.innerText = questions[id].q;
+    question.innerText = gameData[id].q;
 
     // getting the options
     const op1 = document.getElementById('op1');
@@ -154,16 +154,16 @@ function iterate(id) {
 
 
     // providing option text
-    op1.innerText = questions[id].a[0].text;
-    op2.innerText = questions[id].a[1].text;
-    op3.innerText = questions[id].a[2].text;
-    op4.innerText = questions[id].a[3].text;
+    op1.innerText = gameData[id].a[0].text;
+    op2.innerText = gameData[id].a[1].text;
+    op3.innerText = gameData[id].a[2].text;
+    op4.innerText = gameData[id].a[3].text;
 
     // providing the true or false value to the options
-    op1.value = questions[id].a[0].isCorrect;
-    op2.value = questions[id].a[1].isCorrect;
-    op3.value = questions[id].a[2].isCorrect;
-    op4.value = questions[id].a[3].isCorrect;
+    op1.value = gameData[id].a[0].isCorrect;
+    op2.value = gameData[id].a[1].isCorrect;
+    op3.value = gameData[id].a[2].isCorrect;
+    op4.value = gameData[id].a[3].isCorrect;
 
     let selected = " ";
 
@@ -235,22 +235,22 @@ nextQuestion.addEventListener("click", function (e) {
     }
 })
 
-// makes a black box in the results box.
+// makes the results box black.
 let resultElement = document.querySelector('.result');
 resultElement.style.backgroundColor = 'black';
 
-// makes questions box green
+// makes gameData box green
 let questionElement = document.querySelector('.question-container');
 questionElement.style.backgroundColor = 'green';
 
 // create points counter in the top right corner (in progress)
-let score = 0;
-let scoreArray = [];
-function scoreCount() {
-    if (selected == 'true') {
-        score++;
-    }
-}
+// let score = 0;
+// let scoreArray = [];
+// function scoreCount() {
+//     if (selected == 'true') {
+//         score++;
+//     }
+// }
 
 // pull in imgs from imdb api & place them into .grid-container
 
