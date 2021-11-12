@@ -5,13 +5,13 @@ const gameData = [{
     a: [{ text: "Yeah!", isCorrect: true },
     { text: "Maybe", isCorrect: false },
     { text: "No!", isCorrect: false },
-    { text: "Lemme see...", isCorrect: false }
+    { text: "Wait", isCorrect: false }
     ]
 
 },
 {
     id: 1,
-    q: "The character's name Denzel Washington plays in Mo Better Blues?",
+    q: "Character Denzel Washington plays in Mo Better Blues?",
     a: [{ text: "Moses", isCorrect: false },
     { text: "Shadow", isCorrect: false },
     { text: "Bleek", isCorrect: true },
@@ -41,17 +41,17 @@ const gameData = [{
 },
 {
     id: 4,
-    q: "David Byrne and Spike collaborated on what live filmed version of a broadway hit?",
+    q: "David Byrne wrote & starred in this live filmed version of a broadway hit?",
     a: [{ text: "Annie", isCorrect: false },
     { text: "West Side Story", isCorrect: false },
     { text: "American Utopia", isCorrect: true },
-    { text: "Bigger!", isCorrect: false }
+    { text: "Hair", isCorrect: false }
     ]
 
 },
 {
     id: 5,
-    q: "The actor that plays the main character in Clockers.",
+    q: "Actor that plays the main character in Clockers.",
     a: [{ text: "Mekhi Phifer", isCorrect: true },
     { text: "Omar Epps", isCorrect: false },
     { text: "2 Pac", isCorrect: false },
@@ -91,7 +91,7 @@ const gameData = [{
 },
 {
     id: 9,
-    q: "What movie did Spike Lee win an oscar for Best Adapted Screenplay?",
+    q: "Movie Spike Lee won Best Adapted Screenplay oscar for?",
     a: [{ text: "Girl 6", isCorrect: false },
     { text: "Driving Miss Daisy", isCorrect: false },
     { text: "Get On The Bus", isCorrect: false },
@@ -121,11 +121,11 @@ const gameData = [{
 },
 {
     id: 12,
-    q: "Thanks for playing!",
-    a: [{ text: "", isCorrect: false },
-    { text: "", isCorrect: false },
-    { text: "", isCorrect: false },
-    { text: "", isCorrect: true }
+    q: "Thanks for playing!  🙏🏾🙏🏾🙏🏾",
+    a: [{ text: "🙏🏾", isCorrect: false },
+    { text: "🙏🏾", isCorrect: false },
+    { text: "🙏🏾", isCorrect: false },
+    { text: "🙏🏾", isCorrect: true }
     ]
 
 }];
@@ -209,10 +209,10 @@ function iterate(id) {
     // the submit method
     evaluate[0].addEventListener("click", function (e) {
         if (selected == "true") {
-            result[0].innerHTML = "Yup!  Click next question!";
+            result[0].innerHTML = "Yup!";
             result[0].style.color = "green";
         } else {
-            result[0].innerHTML = "Nope, try again!";
+            result[0].innerHTML = "Nope";
             result[0].style.color = "red";
         }
     })
