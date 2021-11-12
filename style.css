@@ -8,13 +8,13 @@
 }
 
 body {
-    display: table-cell;
+    /* display: table-cell; */
     vertical-align: middle;
     background-color: lightgray;
     text-align: center;
     padding: 0;
     margin: 0;    
-    width:100vw;
+    width: 100vw;
     height: 100vh;    
 }
 
@@ -61,15 +61,15 @@ body {
 
 .option {    
     padding: 10px 0 0 0;
-    width: 15vw;
-    height: 10vh;
+    width: 17vw;
+    height: 15vh;
     font-size: larger;
     background-color: lightskyblue;
     border-radius: 15%;
 }
 
 .option:hover {
-    /* background-color: lightgoldenrodyellow; */
+    background-color: lightgoldenrodyellow;
     border-color: black;
 }
 
@@ -113,7 +113,7 @@ body {
   }
 
   img {
-    width: 50%;
+    width: 45%;
     height: 20vh;
     display: block;
     }

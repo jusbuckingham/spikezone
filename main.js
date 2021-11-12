@@ -112,9 +112,9 @@ const gameData = [{
 {
     id: 11,
     q: "Spike Lee is from ____ ?",
-    a: [{ text: "East Lansing", isCorrect: false },
+    a: [{ text: "Atlanta", isCorrect: true },
     { text: "Chicago", isCorrect: false },
-    { text: "Atlanta", isCorrect: true },
+    { text: "East Lansing", isCorrect: false },
     { text: "Brooklyn", isCorrect: false }
     ]
 
