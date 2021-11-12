@@ -2,10 +2,10 @@
 const gameData = [{
     id: 0,
     q: "Ready for the SpikeZone!?",
-    a: [{ text: "", isCorrect: false },
-    { text: "", isCorrect: false },
-    { text: "", isCorrect: true },
-    { text: "", isCorrect: false }
+    a: [{ text: "Yeah!", isCorrect: true },
+    { text: "Maybe", isCorrect: false },
+    { text: "No!", isCorrect: false },
+    { text: "Lemme see...", isCorrect: false }
     ]
 
 },
@@ -112,9 +112,9 @@ const gameData = [{
 {
     id: 11,
     q: "Spike Lee is from ____ ?",
-    a: [{ text: "Jersey City", isCorrect: false },
+    a: [{ text: "East Lansing", isCorrect: false },
     { text: "Chicago", isCorrect: false },
-    { text: "East Lansing", isCorrect: true },
+    { text: "Atlanta", isCorrect: true },
     { text: "Brooklyn", isCorrect: false }
     ]
 
