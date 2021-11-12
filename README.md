@@ -5,7 +5,7 @@ SEI 1025 Project 1: SpikeZone | A trivia game based on film director Spike Lee.
 HTML, CSS & Javascript.
 
 <!-- # Approach Taken
-This is a basic app that uses questions stored as an array of objects and answer hard coded as true or false  -->
+This is a basic app that uses questions stored as an array of objects and answers hard coded as true or false  -->
 
 # Technical Requirements
 The app must:
@@ -33,7 +33,7 @@ Answer each question one by one until you get to the end.  Learn a little along 
 - Timer and score card.
 - "Three strikes and you're out!" rule.
 - Bring in fresh images at the top via imdb api.
-- 'Next Question' button that appears only once the correct answer is selected.
+- "Next Question" button that appears only once the correct answer is selected.
 
 <!-- # Unsolved Prblems
 - Could not figure out a proper way to add score card. -->
