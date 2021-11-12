@@ -165,7 +165,7 @@ function iterate(id) {
     op3.value = gameData[id].a[2].isCorrect;
     op4.value = gameData[id].a[3].isCorrect;
 
-    let selected = " ";
+    let selected = "";
 
     // show selection for op1
     op1.addEventListener("click", function (e) {
