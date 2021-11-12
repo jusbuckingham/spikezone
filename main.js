@@ -1,6 +1,16 @@
 // array of objects with questions & answers.
 const questions = [{
     id: 0,
+    q: "Are you ready for the SpikeZone!?",
+    a: [{ text: "Maybe", isCorrect: false },
+    { text: "No", isCorrect: false },
+    { text: "Yes", isCorrect: true },
+    { text: "Lemme see!", isCorrect: false }
+    ]
+
+},
+{
+    id: 1,
     q: "What's the character's name Denzel Washington plays in Mo Better Blues?",
     a: [{ text: "Moses", isCorrect: false },
     { text: "Shadow", isCorrect: false },
@@ -10,7 +20,7 @@ const questions = [{
 
 },
 {
-    id: 1,
+    id: 2,
     q: "What is the name of Yasiin Bey’s character in Bamboozled?",
     a: [{ text: "Masta Ace", isCorrect: false },
     { text: "Leon", isCorrect: false },
@@ -20,7 +30,7 @@ const questions = [{
 
 },
 {
-    id: 2,
+    id: 3,
     q: "What is the name of the pizzeria Mookie worked at in Do The Right Thing?",
     a: [{ text: "Tino's Pizza", isCorrect: false },
     { text: "Sal's Famous", isCorrect: true },
@@ -30,7 +40,7 @@ const questions = [{
 
 },
 {
-    id: 3,
+    id: 4,
     q: "David Byrne and Spike Lee collaborated on what live filmed version of a broadway hit?",
     a: [{ text: "Annie", isCorrect: false },
     { text: "West Side Story", isCorrect: false },
@@ -40,7 +50,7 @@ const questions = [{
 
 },
 {
-    id: 4,
+    id: 5,
     q: "Who is the actor that plays the main character in Clockers?",
     a: [{ text: "Mekhi Phifer", isCorrect: true },
     { text: "Omar Epps", isCorrect: false },
@@ -50,7 +60,7 @@ const questions = [{
 
 },
 {
-    id: 5,
+    id: 6,
     q: "Who plays West Indian Archie in Malcolm X?",
     a: [{ text: "Charles S. Dutton" },
     { text: "Spike Lee", isCorrect: false },
@@ -60,7 +70,7 @@ const questions = [{
 
 },
 {
-    id: 6,
+    id: 7,
     q: "Actress that playes “Natural” in 25th hour?",
     a: [{ text: "Ruby Dee", isCorrect: false },
     { text: "Chloe Sevigny", isCorrect: false },
@@ -70,7 +80,7 @@ const questions = [{
 
 },
 {
-    id: 7,
+    id: 8,
     q: "Actor that plays Dean Big Brother Almighty in School Daze?",
     a: [{ text: "Chris Rock", isCorrect: false },
     { text: "Giancarlo Esposito", isCorrect: true },
@@ -80,7 +90,7 @@ const questions = [{
 
 },
 {
-    id: 8,
+    id: 9,
     q: "What movie did Spike Lee win an oscar for Best Adapted Screenplay?",
     a: [{ text: "Girl 6", isCorrect: false },
     { text: "Driving Miss Daisy", isCorrect: false },
@@ -90,7 +100,7 @@ const questions = [{
 
 },
 {
-    id: 9,
+    id: 10,
     q: "What was Spike Lee's first movie?",
     a: [{ text: "She Hate Me", isCorrect: false },
     { text: "Kids", isCorrect: false },
@@ -100,12 +110,22 @@ const questions = [{
 
 },
 {
-    id: 10,
+    id: 11,
     q: "Spike Lee is from ____ ?",
     a: [{ text: "Jersey City", isCorrect: false },
     { text: "Chicago", isCorrect: false },
-    { text: "East Lansing", isCorrect: false },
-    { text: "Brooklyn", isCorrect: true }
+    { text: "East Lansing", isCorrect: true },
+    { text: "Brooklyn", isCorrect: false }
+    ]
+
+},
+{
+    id: 12,
+    q: "Thanks for playing!",
+    a: [{ text: "", isCorrect: false },
+    { text: "", isCorrect: false },
+    { text: "", isCorrect: false },
+    { text: "", isCorrect: true }
     ]
 
 }];
@@ -208,7 +228,7 @@ let id = 0;
 
 nextQuestion.addEventListener("click", function (e) {
     start = false;
-    if (id < 10) {
+    if (id < 12) {
         id++;
         iterate(id);
         console.log(id);
