@@ -8,12 +8,12 @@ HTML, CSS & Javascript.
 Uses game data stored as an array of objects.  Answers are hard coded as true or false and it lets you cycle through each of the 11 questions and tells you if you are right or wrong.  -->
 
 # Technical Requirements
-✅ : Displays a game in the browser.
-✅ : Includes separate HTML / CSS / JavaScript files.
-✅ : Sticks with KISS (Keep It Simple Stupid) and DRY (Don't Repeat Yourself) principles.
-✅ : Uses Javascriptd for DOM manipulation.
-✅ : Deployed online, where the rest of the world can access it.
-✅ : Uses semantic markup for HTML and CSS (adhere to best practices).
+- Displays a game in the browser.
+- Includes separate HTML / CSS / JavaScript files.
+- Sticks with KISS (Keep It Simple Stupid) and DRY (Don't Repeat Yourself) principles.
+- Uses Javascriptd for DOM manipulation.
+- Deployed online, where the rest of the world can access it.
+- Uses semantic markup for HTML and CSS (adhere to best practices).
 
 # Where To Play
 Find game here: https://jusbuckingham.github.io/spikezone/ 
