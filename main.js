@@ -11,7 +11,7 @@ const gameData = [{
 },
 {
     id: 1,
-    q: "Character Denzel Washington plays in Mo Better Blues?",
+    q: "Character Denzel Washington plays in 'Mo Better Blues'.",
     a: [{ text: "Moses", isCorrect: false },
     { text: "Shadow", isCorrect: false },
     { text: "Bleek", isCorrect: true },
@@ -21,7 +21,7 @@ const gameData = [{
 },
 {
     id: 2,
-    q: "Yasiin Bey’s character in Bamboozled?",
+    q: "Yasiin Bey’s character in 'Bamboozled'.",
     a: [{ text: "Masta Ace", isCorrect: false },
     { text: "Leon", isCorrect: false },
     { text: "Craig", isCorrect: false },
@@ -31,9 +31,9 @@ const gameData = [{
 },
 {
     id: 3,
-    q: "Pizzeria Mookie worked at in Do The Right Thing?",
+    q: "Pizzeria Mookie worked at in 'Do The Right Thing'.",
     a: [{ text: "Tino's Pizza", isCorrect: false },
-    { text: "Sal's Famous", isCorrect: true },
+    { text: "Sal's", isCorrect: true },
     { text: "Pizza Hut", isCorrect: false },
     { text: "Buger King", isCorrect: false }
     ]
@@ -41,7 +41,7 @@ const gameData = [{
 },
 {
     id: 4,
-    q: "David Byrne wrote & starred in this live filmed version of a broadway hit?",
+    q: "David Byrne wrote this live filmed version of a broadway hit.",
     a: [{ text: "Annie", isCorrect: false },
     { text: "West Side Story", isCorrect: false },
     { text: "American Utopia", isCorrect: true },
@@ -51,17 +51,17 @@ const gameData = [{
 },
 {
     id: 5,
-    q: "Actor that plays the main character in Clockers.",
+    q: "Actor that plays the main character in 'Clockers'.",
     a: [{ text: "Mekhi Phifer", isCorrect: true },
     { text: "Omar Epps", isCorrect: false },
     { text: "2 Pac", isCorrect: false },
-    { text: "Cormega", isCorrect: false }
+    { text: "Treach", isCorrect: false }
     ]
 
 },
 {
     id: 6,
-    q: "Who plays West Indian Archie in Malcolm X?",
+    q: "Who plays 'West Indian Archie' in 'Malcolm X'?",
     a: [{ text: "Charles S. Dutton" },
     { text: "Spike Lee", isCorrect: false },
     { text: "Bill Duke", isCorrect: false },
@@ -71,7 +71,7 @@ const gameData = [{
 },
 {
     id: 7,
-    q: "Actress that playes “Natural” in 25th hour?",
+    q: "Actress that playes 'Naturelle' in '25th hour'.",
     a: [{ text: "Ruby Dee", isCorrect: false },
     { text: "Chloe Sevigny", isCorrect: false },
     { text: "Rosario Dawson", isCorrect: true },
@@ -81,7 +81,7 @@ const gameData = [{
 },
 {
     id: 8,
-    q: "Actor that plays Dean Big Brother Almighty in School Daze?",
+    q: "Who plays 'Dean Big Brother Almighty' in 'School Daze'?",
     a: [{ text: "Chris Rock", isCorrect: false },
     { text: "Giancarlo Esposito", isCorrect: true },
     { text: "Sam Jackson", isCorrect: false },
@@ -91,7 +91,7 @@ const gameData = [{
 },
 {
     id: 9,
-    q: "Movie Spike Lee won Best Adapted Screenplay oscar for?",
+    q: "Movie Spike Lee won Best Adapted Screenplay oscar for.",
     a: [{ text: "Girl 6", isCorrect: false },
     { text: "Driving Miss Daisy", isCorrect: false },
     { text: "Get On The Bus", isCorrect: false },
@@ -101,7 +101,7 @@ const gameData = [{
 },
 {
     id: 10,
-    q: "What was Spike Lee's first movie?",
+    q: "What was Spike Lee's first feature?",
     a: [{ text: "She Hate Me", isCorrect: false },
     { text: "Kids", isCorrect: false },
     { text: "She's Gotta Have It", isCorrect: true },
