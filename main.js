@@ -122,9 +122,9 @@ const gameData = [{
 {
     id: 12,
     q: "Thanks for playing!  🙏🏾🙏🏾🙏🏾",
-    a: [{ text: "🙏🏾", isCorrect: false },
-    { text: "🙏🏾", isCorrect: false },
-    { text: "🙏🏾", isCorrect: false },
+    a: [{ text: "🙏🏾", isCorrect: true },
+    { text: "🙏🏾", isCorrect: true },
+    { text: "🙏🏾", isCorrect: true },
     { text: "🙏🏾", isCorrect: true }
     ]
 
