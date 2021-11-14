@@ -112,13 +112,13 @@ body {
       border-style: dashed;
   }
 
-  img {
+img {
     width: 45%;
     height: 20vh;
     display: block;
     }
 
-    .left, .right {
+.left, .right {
         float: left;
         width: 20%; /* The width is 20%, by default */
       }
