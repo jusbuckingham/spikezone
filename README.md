@@ -16,7 +16,7 @@ Uses game data stored as an array of objects.  Answers are hard coded as true or
 - Uses semantic markup for HTML and CSS (adhere to best practices).
 
 # Where To Play
-Find game here: https://jusbuckingham.github.io/spikezone/ 
+* https://jusbuckingham.github.io/spikezone/ 
 
 # How It Works
 Answer each question one by one until you get to the end.  Learn a little along the way! 
