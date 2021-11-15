@@ -4,6 +4,9 @@ SEI 1025 Project 1: SpikeZone | A trivia game based on film director Spike Lee.
 # Technologies Used
 HTML, CSS & Javascript.
 
+# Goals 
+To make a fun educational trivia app about director Spike Lee using what we've learned thus far in unit 1.
+
 # Approach Taken
 Uses game data stored as an array of objects.  Answers are hard coded as true or false and it lets you cycle through each of the 11 questions and tells you if you are right or wrong.
 
