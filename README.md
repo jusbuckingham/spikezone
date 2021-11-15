@@ -33,8 +33,9 @@ Answer each question one by one until you get to the end.  Learn a little along 
 - Design logic for winning & visually display which player won.
 - Switch turns between two players, or switch turns between a player and the computer (AI).
 
-<!-- # Unsolved Problems
-- Could not figure out a proper way to add score card. -->
+# Unsolved Problems
+- Had trouble adding images via imdb api.
+- Making all question and answers look good on mobile.
 
 # Initial Wireframe
 ![Getting Started](./wireframe-spikezone.png)
