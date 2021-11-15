@@ -11,7 +11,7 @@ const gameData = [{
 },
 {
     id: 1,
-    q: "Character Denzel Washington plays in 'Mo Better Blues'.",
+    q: "Character Denzel Washington plays in 'Mo Better Blues'?",
     a: [{ text: "Moses", isCorrect: false },
     { text: "Shadow", isCorrect: false },
     { text: "Bleek", isCorrect: true },
@@ -21,7 +21,7 @@ const gameData = [{
 },
 {
     id: 2,
-    q: "Yasiin Bey’s character in 'Bamboozled'.",
+    q: "Yasiin Bey’s character in 'Bamboozled'?",
     a: [{ text: "Masta Ace", isCorrect: false },
     { text: "Leon", isCorrect: false },
     { text: "Craig", isCorrect: false },
@@ -31,7 +31,7 @@ const gameData = [{
 },
 {
     id: 3,
-    q: "Pizzeria Mookie worked at in 'Do The Right Thing'.",
+    q: "Pizzeria Mookie worked at in 'Do The Right Thing'?",
     a: [{ text: "Tino's Pizza", isCorrect: false },
     { text: "Sal's", isCorrect: true },
     { text: "Pizza Hut", isCorrect: false },
@@ -41,7 +41,7 @@ const gameData = [{
 },
 {
     id: 4,
-    q: "David Byrne's broadway hit that was filmed by Spike as a movie.",
+    q: "David Byrne's broadway hit that was filmed by Spike Lee as a movie?",
     a: [{ text: "Annie", isCorrect: false },
     { text: "West Side Story", isCorrect: false },
     { text: "American Utopia", isCorrect: true },
@@ -51,7 +51,7 @@ const gameData = [{
 },
 {
     id: 5,
-    q: "Actor that plays the main character in 'Clockers'.",
+    q: "Actor that plays the main character in 'Clockers'?",
     a: [{ text: "Mekhi Phifer", isCorrect: true },
     { text: "Omar Epps", isCorrect: false },
     { text: "2 Pac", isCorrect: false },
@@ -71,7 +71,7 @@ const gameData = [{
 },
 {
     id: 7,
-    q: "Actress that playes 'Naturelle' in '25th hour'.",
+    q: "Actress that plays 'Naturelle' in '25th hour'?",
     a: [{ text: "Ruby Dee", isCorrect: false },
     { text: "Chloe Sevigny", isCorrect: false },
     { text: "Rosario Dawson", isCorrect: true },
@@ -91,7 +91,7 @@ const gameData = [{
 },
 {
     id: 9,
-    q: "Movie Spike Lee won Best Adapted Screenplay oscar for.",
+    q: "Movie Spike Lee won Best Adapted Screenplay oscar for?",
     a: [{ text: "Girl 6", isCorrect: false },
     { text: "Driving Miss Daisy", isCorrect: false },
     { text: "Get On The Bus", isCorrect: false },
