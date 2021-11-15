@@ -109,21 +109,21 @@ img {
     width: 45%;
     height: 20vh;
     display: block;
-    }
+}
 
 .left, .right {
-        float: left;
-        width: 20%; 
-      }
+    float: left;
+    width: 20%; 
+}
       
-      .main {
+.main {
         float: left;
         width: 60%; 
       }
       
       
-      @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
         .left, .main, .right {
           width: 100%; 
         }
-      }
+}
