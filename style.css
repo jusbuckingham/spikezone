@@ -101,7 +101,7 @@ body {
     padding: auto;
   }
 
-  .header-container {
+.header-container {
       border-style: dashed;
   }
 
@@ -120,8 +120,7 @@ img {
         float: left;
         width: 60%; 
       }
-      
-      
+   
 @media screen and (max-width: 800px) {
         .left, .main, .right {
           width: 100%; 
