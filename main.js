@@ -41,7 +41,7 @@ const gameData = [{
 },
 {
     id: 4,
-    q: "David Byrne wrote this live filmed version of a broadway hit.",
+    q: "David Byrne's broadway hit that was filmed by Spike as a movie.",
     a: [{ text: "Annie", isCorrect: false },
     { text: "West Side Story", isCorrect: false },
     { text: "American Utopia", isCorrect: true },
