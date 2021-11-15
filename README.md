@@ -5,11 +5,11 @@ SEI 1025 Project 1: SpikeZone | A trivia game based on film director Spike Lee.
 HTML, CSS & Javascript.
 
 # Approach Taken
-Uses game data stored as an array of objects.  Answers are hard coded as true or false and it lets you cycle through each of the 11 questions and tells you if you are right or wrong. 
+Uses game data stored as an array of objects.  Answers are hard coded as true or false and it lets you cycle through each of the 11 questions and tells you if you are right or wrong.
+
+Code Snippet:
 
 ``` 
-example code: 
-
 const gameData = [{
     id: 0,
     q: "Ready for the SpikeZone!?",
@@ -29,7 +29,8 @@ const gameData = [{
     { text: "Mookie", isCorrect: false }
     ]
 
-}, ```
+}, 
+```
 
 # Technical Requirements
 - Displays a game in the browser.
