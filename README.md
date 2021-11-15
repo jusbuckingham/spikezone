@@ -7,6 +7,30 @@ HTML, CSS & Javascript.
 # Approach Taken
 Uses game data stored as an array of objects.  Answers are hard coded as true or false and it lets you cycle through each of the 11 questions and tells you if you are right or wrong. 
 
+``` 
+example code: 
+
+const gameData = [{
+    id: 0,
+    q: "Ready for the SpikeZone!?",
+    a: [{ text: "Yeah!", isCorrect: true },
+    { text: "Maybe", isCorrect: false },
+    { text: "No!", isCorrect: false },
+    { text: "Wait", isCorrect: false }
+    ]
+
+},
+{
+    id: 1,
+    q: "Character Denzel Washington plays in 'Mo Better Blues'?",
+    a: [{ text: "Moses", isCorrect: false },
+    { text: "Shadow", isCorrect: false },
+    { text: "Bleek", isCorrect: true },
+    { text: "Mookie", isCorrect: false }
+    ]
+
+}, ```
+
 # Technical Requirements
 - Displays a game in the browser.
 - Includes separate HTML / CSS / JavaScript files.
