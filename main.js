@@ -242,26 +242,3 @@ resultElement.style.backgroundColor = 'black';
 // makes gameData box green
 let questionElement = document.querySelector('.question-container');
 questionElement.style.backgroundColor = 'green';
-
-// create points counter in the top right corner (in progress)
-// let score = 0;
-// let scoreArray = [];
-// function scoreCount() {
-//     if (selected == 'true') {
-//         score++;
-//     }
-// }
-
-// pull in imgs from imdb api & place them into .grid-container
-
-// var requestOptions = {
-//     method: 'GET',
-//     redirect: 'follow'
-//   };
-
-//   fetch('s://imdb-api.com/en/API/Images/k_12345678/tt1375666', requestOptions)
-//     .then(response => response.text())
-//     .then(result => console.log(result))
-//     .catch(error => console.log('error', error));
-
-// create results final page function
